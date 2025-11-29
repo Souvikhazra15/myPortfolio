@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="framer-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0055FF"/>
+      <stop offset="100%" stop-color="#00AAFF"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#framer-gradient)" d="M24.67 127.83V85.04h38.8l19.4-19.4H24.67V23.04h77.59L64.07 61.23l38.8 38.8h-38.8L24.67 39.23v88.6z"/>
+</svg>

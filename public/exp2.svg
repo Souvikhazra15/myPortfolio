@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="exp2-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="55" fill="url(#exp2-grad)" opacity="0.2"/>
+  <!-- Microchip -->
+  <rect x="40" y="40" width="48" height="48" rx="4" fill="url(#exp2-grad)" opacity="0.6"/>
+  <rect x="50" y="50" width="28" height="28" rx="2" fill="#ffffff" opacity="0.3"/>
+  <!-- Pins -->
+  <rect x="30" y="52" width="8" height="3" fill="url(#exp2-grad)"/>
+  <rect x="30" y="62" width="8" height="3" fill="url(#exp2-grad)"/>
+  <rect x="30" y="72" width="8" height="3" fill="url(#exp2-grad)"/>
+  <rect x="90" y="52" width="8" height="3" fill="url(#exp2-grad)"/>
+  <rect x="90" y="62" width="8" height="3" fill="url(#exp2-grad)"/>
+  <rect x="90" y="72" width="8" height="3" fill="url(#exp2-grad)"/>
+  <!-- Signal waves -->
+  <circle cx="64" cy="20" r="3" fill="#10B981">
+    <animate attributeName="r" values="3;8;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="p2-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#p2-bg)"/>
+  <!-- Dashboard Layout -->
+  <rect x="30" y="40" width="340" height="220" rx="8" fill="#1e293b" stroke="#8B5CF6" stroke-width="2"/>
+  <!-- Header -->
+  <rect x="40" y="50" width="320" height="30" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="200" y="70" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">Sensor Dashboard</text>
+  <!-- Charts -->
+  <rect x="50" y="95" width="140" height="80" rx="4" fill="#6366F1" opacity="0.2"/>
+  <polyline points="60,155 80,125 100,140 120,110 140,130 160,120 180,135" fill="none" stroke="#10B981" stroke-width="3"/>
+  <rect x="210" y="95" width="140" height="80" rx="4" fill="#6366F1" opacity="0.2"/>
+  <circle cx="280" cy="135" r="30" fill="none" stroke="#8B5CF6" stroke-width="8"/>
+  <text x="280" y="142" font-family="Arial" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">75%</text>
+  <!-- Data Cards -->
+  <rect x="50" y="190" width="90" height="50" rx="4" fill="#8B5CF6" opacity="0.3"/>
+  <text x="95" y="215" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Temp: 24°C</text>
+  <rect x="155" y="190" width="90" height="50" rx="4" fill="#6366F1" opacity="0.3"/>
+  <text x="200" y="215" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Humidity: 60%</text>
+  <rect x="260" y="190" width="90" height="50" rx="4" fill="#10B981" opacity="0.3"/>
+  <text x="305" y="215" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Air Quality</text>
+</svg>

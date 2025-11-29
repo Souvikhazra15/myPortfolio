@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="p3-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e1e"/>
+      <stop offset="100%" stop-color="#2d2d2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#p3-bg)"/>
+  <!-- Code Editor -->
+  <rect x="20" y="30" width="360" height="240" rx="8" fill="#1e1e1e" stroke="#00599C" stroke-width="2"/>
+  <!-- Line numbers -->
+  <rect x="20" y="30" width="40" height="240" fill="#0a0a0a" opacity="0.5"/>
+  <!-- Code lines -->
+  <text x="70" y="60" font-family="Courier New" font-size="12" fill="#569cd6">class</text>
+  <text x="105" y="60" font-family="Courier New" font-size="12" fill="#4ec9b0">SensorController</text>
+  <text x="210" y="60" font-family="Courier New" font-size="12" fill="#cccccc">{</text>
+  
+  <text x="80" y="85" font-family="Courier New" font-size="12" fill="#c586c0">public:</text>
+  
+  <text x="90" y="110" font-family="Courier New" font-size="12" fill="#569cd6">void</text>
+  <text x="120" y="110" font-family="Courier New" font-size="12" fill="#dcdcaa">readSensor</text>
+  <text x="190" y="110" font-family="Courier New" font-size="12" fill="#cccccc">();</text>
+  
+  <text x="90" y="135" font-family="Courier New" font-size="12" fill="#569cd6">int</text>
+  <text x="110" y="135" font-family="Courier New" font-size="12" fill="#dcdcaa">getValue</text>
+  <text x="165" y="135" font-family="Courier New" font-size="12" fill="#cccccc">();</text>
+  
+  <text x="70" y="160" font-family="Courier New" font-size="12" fill="#cccccc">};</text>
+  
+  <!-- C++ Icon -->
+  <circle cx="340" cy="250" r="25" fill="#00599C" opacity="0.3"/>
+  <text x="340" y="258" font-family="Arial" font-size="20" fill="#00599C" text-anchor="middle" font-weight="bold">C++</text>
+</svg>

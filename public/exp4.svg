@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="exp4-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="55" fill="url(#exp4-grad)" opacity="0.2"/>
+  <!-- Laptop -->
+  <rect x="25" y="45" width="78" height="48" rx="4" fill="url(#exp4-grad)" opacity="0.6"/>
+  <rect x="30" y="50" width="68" height="35" rx="2" fill="#1e293b"/>
+  <!-- Code on screen -->
+  <rect x="35" y="55" width="20" height="3" rx="1" fill="#61DAFB"/>
+  <rect x="35" y="62" width="30" height="3" rx="1" fill="#10B981"/>
+  <rect x="35" y="69" width="25" height="3" rx="1" fill="#8B5CF6"/>
+  <rect x="35" y="76" width="35" height="3" rx="1" fill="#F59E0B"/>
+  <!-- Keyboard base -->
+  <polygon points="20,93 108,93 103,98 25,98" fill="url(#exp4-grad)" opacity="0.8"/>
+  <!-- Freelance badge -->
+  <circle cx="95" cy="30" r="12" fill="#10B981"/>
+  <text x="95" y="35" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">₹</text>
+</svg>
