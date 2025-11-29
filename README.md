@@ -1,4 +1,4 @@
-# ECE Engineer Portfolio
+# Souvik's Portfolio
 
 A modern, responsive portfolio website showcasing expertise in **Electronics & Communication Engineering**, **MERN Stack Development**, and **IoT/Embedded Systems**.
 
